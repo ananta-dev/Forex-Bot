@@ -11,3 +11,5 @@ actibotenv.bat
 deactibotenv.bat
 
 forex-bot-env/
+
+defs.py
