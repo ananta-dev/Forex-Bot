@@ -4,7 +4,7 @@ class MAResult():
         self.df_trades = df_trades
         self.params = params
 
-    def result_ob(self):
+    def result_dict(self):
         d = {
             'pair':         self.pairname,
             'num_trades':   self.df_trades.shape[0],
