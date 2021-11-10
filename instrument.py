@@ -62,7 +62,7 @@ class Instrument():
             
 if __name__ == "__main__":
     #print(Instrument.get_instruments_list())
-    #print(Instrument.get_instruments_dict())
+    print(Instrument.get_instruments_dict())
     #for k,v in Instrument.get_instruments_dict().items():
     #    print(k,v)   
     print(Instrument.get_instrument_by_name("EUR_USD"))
