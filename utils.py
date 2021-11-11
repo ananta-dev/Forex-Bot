@@ -7,6 +7,9 @@ def get_instruments_data_filename():
 def get_ma_test_results_data_filename():
     return "his_data/@ma_test_res.pkl"
 
+def get_all_trades_filename():
+    return "his_data/@all_trades.pkl"
+
 if __name__ == "__main__":
     print(get_his_data_filename("EUR_USD","H1"))
     print(get_instruments_data_filename())
